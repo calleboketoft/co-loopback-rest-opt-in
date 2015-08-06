@@ -1,14 +1,14 @@
 # Loopback REST opt-in
 
- Use this module to choose which REST endpoints to enable rather which to disable
+Use this module to choose which REST endpoints to enable rather than which to disable
 
 Use in the models
 ```javascript
-require('restMethods').enable(MyModel, ['create', 'findById'])
+require('co-loopback-rest-opt-in').enable(MyModel, ['create', 'findById'])
 ```
 
 Install using NPM
 
 ```bash
-npm install --save git+https://git@github.com/calleboketoft/loopback-rest-opt-in.git
+npm install --save git+https://git@github.com/calleboketoft/co-loopback-rest-opt-in.git
 ```
