@@ -1,5 +1,5 @@
 {
-  "name": "loopback-rest-opt-in",
+  "name": "co-loopback-rest-opt-in",
   "version": "0.0.1",
   "description": "",
   "main": "lbRestOptIn.js",

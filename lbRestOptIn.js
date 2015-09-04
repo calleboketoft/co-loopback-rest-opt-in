@@ -1,5 +1,5 @@
 // Use this module to choose which REST endpoints to enable rather which to disable
-// require('restMethods').enable(MyModel, ['create', 'findById'])
+// require('co-loopback-rest-opt-in').enable(MyModel, ['create', 'findById'])
 
 var restMethods = [
   { name: 'create', isStatic: true },             // POST /[model]
