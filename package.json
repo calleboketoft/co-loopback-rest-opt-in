@@ -4,5 +4,8 @@
   "description": "",
   "main": "lbRestOptIn.js",
   "author": "Carl-Ola Boketoft, Lasse Viggo Hensrik",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "tap": "^1.4.0"
+  }
 }

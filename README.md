@@ -8,8 +8,14 @@ Install using NPM
 npm install --save git+npm install --save git+https://git@github.com/calleboketoft/co-loopback-rest-opt-in.git
 ```
 
-Use in the models
+Opt-in for REST methods
 ```javascript
 require('co-loopback-rest-opt-in').enable(MyModel, ['create', 'findById'])
+// create, deleteById, findById, upsert, find, exists, updateAll, createChangeStream, count, findOne, updateAttributes
 ```
-See the source code for which endpoints can be specified
+
+Opt-in for REST methods for related resources
+```javascript
+require('co-loopback-rest-opt-in').enableRelated(MyModel, 'RelatedModel', ['create', 'destroyById'])
+// create, destroyById, updateById, get, findById, delete, count
+```

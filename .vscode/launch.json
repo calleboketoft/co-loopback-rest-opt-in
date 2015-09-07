@@ -1,0 +1,15 @@
+{
+  "version": "0.1.0",
+  "configurations": [
+    {
+      "name": "Run tests",
+      "type": "node",
+      "program": "test/lbRestOptIn-test.js",
+      "stopOnEntry": false,
+      "cwd": ".",
+      "runtimeArgs": [
+        "--nolazy"
+      ]
+    }
+  ]
+}
