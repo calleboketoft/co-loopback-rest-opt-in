@@ -1,8 +1,8 @@
 {
   "name": "co-loopback-rest-opt-in",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "description": "",
   "main": "lbRestOptIn.js",
-  "author": "Carl-Ola Boketoft",
+  "author": "Carl-Ola Boketoft, Lasse Viggo Hensrik",
   "license": "ISC"
 }
