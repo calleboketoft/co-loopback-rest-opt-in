@@ -1,6 +1,6 @@
 {
   "name": "co-loopback-rest-opt-in",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Opt-in rather than opt-out for generated Loopback REST endpoints",
   "main": "lbRestOptIn.js",
   "author": "Carl-Ola Boketoft, Lasse Viggo Hensrik",
