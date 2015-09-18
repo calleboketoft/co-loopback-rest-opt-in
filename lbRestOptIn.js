@@ -47,7 +47,7 @@ var restRelationMethods = [
 module.exports.enableRelated = function (modelObj, relationModelName, enable) {
   enable = enable || []
   restRelationMethods.forEach(function (method) {
-    var enableCurrent = enable.some(function(enableMethod) {
+    var enableCurrent = enable.some(function (enableMethod) {
       return method.name.indexOf(enableMethod) !== -1
     })
     if (!enableCurrent) {
