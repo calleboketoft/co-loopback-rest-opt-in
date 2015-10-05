@@ -22,5 +22,5 @@ coOptIn.enableRelated(MyModel, 'RelatedModel', [
   'destroyById'
 ])
 // create, destroyById, updateById, get, findById,
-// delete, count
+// delete, destory, update, count
 ```
