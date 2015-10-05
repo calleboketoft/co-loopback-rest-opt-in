@@ -41,7 +41,9 @@ var restRelationMethods = [
   { name: 'prototype.__get__', isStatic: true },
   { name: 'prototype.__findById__', isStatic: true },
   { name: 'prototype.__delete__', isStatic: true },
-  { name: 'prototype.__count__', isStatic: true },
+  { name: 'prototype.__update__', isStatic: true },
+  { name: 'prototype.__destroy__', isStatic: true },
+  { name: 'prototype.__count__', isStatic: true }
 ]
 
 module.exports.enableRelated = function (modelObj, relationModelName, enable) {
