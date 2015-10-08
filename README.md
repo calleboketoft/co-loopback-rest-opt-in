@@ -1,6 +1,6 @@
 # Loopback REST opt-in
 
-Use this module to choose which automatically generated Loopback REST endpoints to enable rather than which to disable
+Choose which automatically generated Loopback REST endpoints to enable rather than which to disable
 
 Opt-in for REST methods
 ```javascript
